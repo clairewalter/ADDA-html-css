@@ -1,0 +1,63 @@
+h1 {
+  font-size: 65px;
+  text-align: center;
+  color: #400406;
+  margin: 10px;
+  font-family: 'Federo', sans-serif;
+
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	color: #755c1b;
+	margin: 0px;
+	font-family: 'Federo', sans-serif;
+
+}
+
+/* remove bullets, remove default space */
+.menu {
+	list-style-type: none;
+	padding: 0;
+
+	width: 900px;
+	margin: 0 auto;
+	background-color: #7a4419;
+
+	display: flex;
+	flex-wrap: wrap;
+
+} 
+
+/* make the list items look more like buttons */
+.menu li {
+	border: 1px solid #d0db97;
+	width: 200px;
+	display: inline-block; 
+	margin: 10px;
+	text-align: center;
+
+}
+
+/* style the the visited links */
+.menu a {
+	/*turns off the underline*/
+	text-decoration: none; 
+	color: #d0db97;
+
+	display: block;
+	width: 100%;
+
+}
+
+/* make a hover effect... */
+/*pseudo class, an option*/
+.menu a:hover {
+	background-color: #515a47;
+	color: #f2aa7e;
+}
+
+body {
+	background-color: blanchedalmond;
+}
