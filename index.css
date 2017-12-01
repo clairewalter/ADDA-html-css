@@ -1,0 +1,103 @@
+h1 {
+  font-size: 65px;
+  text-align: center;
+  color: #400406;
+  margin: 10px;
+  font-family: 'Federo', sans-serif;
+  margin-top: 35px;
+
+}
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #755c1b;
+	margin-bottom: 40px;
+	font-family: 'Federo', sans-serif;
+}
+
+.menu {
+	list-style-type: none;
+	padding: 0;
+	width: 900px;
+	margin: 0 auto;
+	background-color: #7a4419;
+	display: flex;
+	flex-wrap: wrap;
+} 
+
+.menu li {
+	border: 1.5px solid #d0db97;
+	width: 200px;
+	display: inline-block; 
+	margin: 10px;
+	text-align: center;
+	font-family: 'Federo', sans-serif;
+	font-size: 40px;
+}
+
+.menu a {
+	/*turns off the underline*/
+	text-decoration: none; 
+	color: #d0db97;
+	display: block;
+	width: 100%;
+}
+
+/* make a hover effect... */
+.menu a:hover {
+	background-color: #515a47;
+	color: #f2aa7e;
+}
+
+body {
+	background-color: blanchedalmond;
+
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+
+.biotext h1 {
+	font-family: 'Federo', sans-serif;
+}
+
+.biotext {
+	margin-top: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: justify;
+}
+
+.workstext {
+	margin-top: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: justify;
+
+}
+
+.soundcloud {
+	margin-top: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+.contacttext {
+	font-family: 'Federo', sans-serif;
+	font-size: 25px;
+	color: #755c1b;
+	text-align: center;
+}
+
+.contacttext
+	a:visited {
+		color: #755c1b;
+	}
+
